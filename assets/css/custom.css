@@ -1,0 +1,212 @@
+/* Mobile, default, bootstrap s */
+
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%; /* most cases, this will be 16pt */
+}
+
+body {
+    font-family: 'Raleway', sans-serif !important;
+    background-color: #F5F5F2;
+}
+
+/* Adds skip link for keyboard users */
+a.skip-main {
+    left: -999px;
+    position: absolute;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: -999;
+}
+
+a.skip-main:focus,
+a.skip-main:active {
+    background-color: #000;
+    color: #fff;
+    left: auto;
+    top: 0px;
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    text-align: center;
+    font-size: 2rem;
+    z-index: 999;
+    font-family: 'Space Mono', monospace;
+}
+
+/* Makes content visible only to screen readers */
+.sr-only {
+    left: -200vw;
+    position: absolute;
+}
+
+/* Navigation */
+header .container {
+    display: flex;
+    flex-flow: column;
+    margin-top: 1rem;
+}
+
+.header-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+}
+
+.header-nav ul {
+    list-style: none;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    font-family: 'Space Mono', monospace;
+    text-transform: uppercase;
+}
+
+.header-nav ul li {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.header-nav ul li a {
+    text-decoration: none;
+    padding: 1rem 0rem;
+    display: block;
+    color: #111 ;
+}
+
+.header-nav ul li a[aria-current="true"] {
+    text-decoration: underline;
+}
+
+/* Content */
+.content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Article */
+
+.heading dfn {
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+}
+
+.heading p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.content article h1 {
+   margin-bottom: 1.5rem;
+   margin-top: 1rem;
+   font-weight: bolder;
+}
+
+.content article h2 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.content article h3 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.content article img {
+    width:100%;
+}
+
+.content article figure {
+    margin: 2rem 0rem;
+}
+
+.content article li{
+    margin-bottom: 2rem;
+}
+
+/* Footer */
+.footer h3 { /* What font family will you use here? */
+    font-family: 'Space mono', monospace;
+    font-size: 1.6rem;
+}
+
+.footer ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer li {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+.footer {
+    border-top: solid 1px #eaeaea;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Creates 3 column list in footer */
+.pages_list{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+/* Tablet, bootstrap m */
+@media only screen and (min-width: 768px) {
+
+}
+
+
+/* Desktop, bootstrap lg */
+@media only screen and (min-width: 992px) {
+
+    /* Navigation */
+    header .container {
+        flex-flow: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-nav ul li a[aria-current="true"] {
+        text-decoration: underline;
+    }
+
+    .header-nav ul {
+        white-space: normal;
+        overflow-x: initial;
+    }
+
+    .content article p, .content article li{
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    .content article h3{
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+    }
+
+    .heading p {
+        font-size: 1.4rem;
+        line-height: 2.6rem;
+    }
+}
+
+
+
+/* Desktop, bootstrap xl */
+@media only screen and (min-width: 1200px) {
+
+    
+}
