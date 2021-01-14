@@ -144,6 +144,7 @@ h1, h2 {
 
 #mvp_text {
     margin-top: auto;
+    margin-top: min(5%);
     margin-bottom: auto;
 }
 
