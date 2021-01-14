@@ -96,8 +96,8 @@ h1, h2 {
     font-family: 'Playfair Display', serif;
 }
 
-/* Article */
 
+/* Article */
 .heading dfn {
     font-family: 'Space Mono', monospace;
     font-style: normal;
@@ -117,6 +117,10 @@ h1, h2 {
 .content article h2 {
     margin-top: 3rem;
     margin-bottom: 1rem;
+    width: 100%; 
+    text-align: left; 
+    border-bottom: 1px solid #a3a3a3; 
+    line-height: 0.1em;
 }
 
 .content article h3 {
@@ -136,6 +140,16 @@ h1, h2 {
 
 .content article li{
     margin-bottom: 2rem;
+}
+
+#mvp_text {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.content article h2 span {
+    background:#fff; 
+    padding:0 10px; 
 }
 
 /* Footer */
