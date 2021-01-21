@@ -146,6 +146,7 @@ h1, h2 {
     margin-top: auto;
     margin-top: min(5%);
     margin-bottom: auto;
+    padding-left: 3%;
 }
 
 .content article h2 span {
