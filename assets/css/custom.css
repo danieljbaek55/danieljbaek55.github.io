@@ -79,7 +79,7 @@ header .container {
     text-decoration: none;
     padding: 1rem 0rem;
     display: block;
-    color: #111 ;
+    color: #111;
 }
 
 .header-nav ul li a[aria-current="true"] {
@@ -144,7 +144,7 @@ h1, h2 {
 
 #mvp_text {
     margin-top: auto;
-    margin-top: min(5%);
+    margin-top: min(3%);
     margin-bottom: auto;
     padding-left: 3%;
 }
@@ -152,6 +152,18 @@ h1, h2 {
 .content article h2 span {
     background:#fff; 
     padding:0 10px; 
+}
+
+.landing_page {
+    background:#EBEBEB;
+    height: 30rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #171717;
+    box-shadow: 5px 5px 10px black;
 }
 
 /* Footer */
